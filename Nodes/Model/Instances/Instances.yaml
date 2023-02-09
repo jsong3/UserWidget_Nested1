@@ -1,0 +1,99 @@
+Name: Instances
+Type: FolderType
+Children:
+- Name: Tank1
+  Id: g=582d6cfd4532175e98f238507bcb0896
+  Type: TankType
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "WaterTank1"
+  - Name: Temp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 100
+  - Name: Level
+    Id: g=7a901f3f1c0587abf312cdb961ca74bb
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 10
+  - Name: ValveInStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ValveOutStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: Tank2
+  Id: g=0dac210bda1803999ca3884b28da1972
+  Type: TankType
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "WaterTank2"
+  - Name: Temp
+    Id: g=3b6bdcf1bce147682902ee5e565f224e
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 200
+  - Name: Level
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 20
+  - Name: ValveInStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ValveOutStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: Tank3
+  Type: TankType
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "WaterTank1"
+  - Name: Temp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Level
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ValveInStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ValveOutStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: Tank4
+  Type: TankType
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "WaterTank1"
+  - Name: Temp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Level
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ValveInStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ValveOutStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
